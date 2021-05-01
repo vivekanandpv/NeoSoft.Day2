@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoSoft.Day2", "NeoSoft.Day2.csproj", "{3AB1AAD5-E9C1-4597-A1DD-13C24A5426AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AB1AAD5-E9C1-4597-A1DD-13C24A5426AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB1AAD5-E9C1-4597-A1DD-13C24A5426AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB1AAD5-E9C1-4597-A1DD-13C24A5426AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB1AAD5-E9C1-4597-A1DD-13C24A5426AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {197E2BF0-97B7-4CBB-8FD5-37DF7BC11086}
+	EndGlobalSection
+EndGlobal
