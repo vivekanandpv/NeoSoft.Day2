@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NeoSoft.Day2.Middleware;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,8 @@ namespace NeoSoft.Day2
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseMiddleware<AppCustomMiddleware>();
 
             app.UseRouting();
 
